@@ -6,7 +6,7 @@ A fully local Model Context Protocol (MCP) client application that runs entirely
 
 - **100% Local Operation**: No external API calls or cloud dependencies
 - **MCP Protocol Compliance**: Full support for tools, resources, and prompts
-- **Local LLM**: DeepSeek-R1 served via Ollama
+- **Local LLM**: llama3.2 served via Ollama
 - **Persistent Storage**: SQLite database for conversations and knowledge
 - **Context-Aware**: Maintains memory across sessions
 - **Web UI**: Interactive Streamlit interface
@@ -72,7 +72,7 @@ Copy the configuration to your Claude Desktop config file:
 
 ┌─────────────────┐ ┌──────────────────┐ ┌─────────────────┐
 │ Streamlit UI │ │ MCP Client │ │ Local LLM │
-│ │◄──►│ │◄──►│ (DeepSeek-R1) │
+│ │◄──►│ │◄──►│ (Llama3.2) │
 └─────────────────┘ └──────────────────┘ └─────────────────┘
 │
 ▼
