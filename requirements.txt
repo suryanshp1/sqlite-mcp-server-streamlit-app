@@ -1,0 +1,10 @@
+streamlit
+llama-index
+llama-index-core
+llama-index-llms-ollama
+llama-index-tools-mcp
+mcp[cli]
+python-dotenv
+nest-asyncio
+aiohttp
+anyio

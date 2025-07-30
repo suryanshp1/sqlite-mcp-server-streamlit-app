@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+*.env
+
+# SQLite DB
+*.db
+
+# Docker
+*.pid
+*.log
+
+# VSCode
+.vscode/
+
+# Data
+/data/
+
+# Config
+/config/*.json
+
+# Misc
+.DS_Store
+
+# virtual env
+venv
